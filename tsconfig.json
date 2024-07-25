@@ -9,8 +9,24 @@
     },
     {
       "compilerOptions": {
-        "types": ["@types/styled-jsx"]
-      }
+        "types": ["@types/styled-jsx"],
+        "jsx": "react-jsx",
+        "target": "es5",
+        "lib": ["dom", "esnext"],
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+
+        /* import alias */
+        "baseUrl": "./",
+        "paths": {
+          "@/*": ["src/*"]
+        }
+      },
+      "include": ["src"]
     },
   ]
 }

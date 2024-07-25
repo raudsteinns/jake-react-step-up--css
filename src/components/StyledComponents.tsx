@@ -4,7 +4,7 @@ const StyledComponents = () => {
   return (
     <>
       <SC_container>
-        <SC_title>Styled JSX</SC_title>
+        <SC_title>Styled Components</SC_title>
         <SC_button>Fight</SC_button>
       </SC_container>
     </>
