@@ -1,6 +1,5 @@
-/** @jsx jsx */
-/** @jsxFrag React.Fragment */
-import { jsx, css } from "@emotion/react";
+/** @jsxImportSource @emotion/react */
+import { css } from "@emotion/react";
 
 const Emotion = () => {
   const containerStyle = css`
